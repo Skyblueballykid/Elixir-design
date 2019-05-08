@@ -27,6 +27,7 @@ false
 IO.inspect('hello' == "hello")
 
 ### Lists
+# Can hold any value
 
 li = [1, 2, true, 3]
 IO.inspect(li)
@@ -78,3 +79,17 @@ IO.puts(String.upcase("hello"))
 IO.puts(String.downcase("HELLO"))
 
 ### Tuples
+
+# Defined with curly brackets, can hold any value
+# Tuples store elements contiguously in memory.
+# This means accessing a tuple element by index or getting the tuple size is a fast operation. 
+# Indexes start from zero
+# It is also possible to put an element at a particular index in a tuple with put_elem/3
+
+tuple = {:ok, 1, "hello"}
+
+IO.inspect(tuple)
+
+IO.inspect(elem(tuple, 1))
+
+IO.inspect(put_elem(tuple, 2, "world"))
