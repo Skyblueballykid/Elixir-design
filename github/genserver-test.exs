@@ -1,3 +1,6 @@
+# https://culttt.com/2016/08/24/understanding-genserver-elixir/
+# basic Genserver client-server implementation
+
 defmodule ShoppingList do
   use GenServer
 
