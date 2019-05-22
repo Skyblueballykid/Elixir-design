@@ -17,6 +17,16 @@ defmodule ShoppingList do
 
 
   # Server Callbacks
+  def init(:ok) do
+    {:ok, []}
+  end
 
+  def handle_call({:read}, from, list) do
+    {:reply, list, list}
+  end
+
+  def handle_cast({:add, item}, list) do
+    {:noreply, list ++ [item]}
+  end
 
 end
