@@ -2,9 +2,6 @@ Elixir Resources:
 
 https://github.com/h4cc/awesome-elixir#files-and-directories
 
-### Tell Ricardo to add Gyx to awesome-elixir
-
-
 File System:
 https://code.tutsplus.com/tutorials/working-with-file-system-in-elixir--cms-28869
 
